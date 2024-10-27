@@ -15,7 +15,6 @@ public class UserService {
 
     public List<User> findAll(){
         users.put(1L, User.builder().id(1L).username("raghu").firstName("Raghu").lastName("P").build());
-
         users.put(2L, User.builder().id(2L).username("vedha").firstName("Vedha").lastName("Viraagh").build());
         users.put(3L, User.builder().id(3L).username("hanshu").firstName("Hanshith").lastName("P").build());
         List<User> list = new ArrayList<>(users.values());
