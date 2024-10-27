@@ -21,6 +21,9 @@ jobs:
           unzip sonar-scanner-cli-6.2.1.4610-linux-x64.zip
           export PATH=$PATH:$GITHUB_WORKSPACE/sonar-scanner-cli-6.2.1.4610-linux/bin
 
+      - name: Verify SonarScanner installation
+        run: sonar-scanner -v
+
       - name: Run SonarQube analysis
         run: |
           sonar-scanner \
