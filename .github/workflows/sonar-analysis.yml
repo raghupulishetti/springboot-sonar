@@ -28,4 +28,4 @@ jobs:
             -Dsonar.organization=springboot-sonar \
             -Dsonar.projectName='springboot-sonar' \
             -Dsonar.host.url=http://localhost:9000 \
-            -Dsonar.login=sqp_dcb9d8a0ad6f876aa8b1d6d6711da7e23241da2d
+            -Dsonar.login=sqp_3a37ed97a081e1a2a1447aea70bb9e33da003293
